@@ -25,3 +25,22 @@
 .mini-character.extra-1,.character.extra-1{background-image:url('../contestant-plus-man.png')}
 .mini-character.extra-2,.character.extra-2{background-image:url('../contestant-plus-woman.png')}
 .mini-character.extra-3,.character.extra-3{background-image:url('../contestant-overalls.png')}
+
+/* Todos os oito personagens usam a mesma tela vertical e a mesma escala. */
+.mini-character[class*="visual-"],.character[class*="visual-"]{
+  background-size:contain!important;
+  background-position:center bottom!important;
+  background-repeat:no-repeat!important;
+}
+.visual-0{background-image:url('../contestant-man.png')!important}
+.visual-1{background-image:url('../contestant-dress.png')!important}
+.visual-2{background-image:url('../contestant-purple.png')!important}
+.visual-3{background-image:url('../contestant-blonde.png')!important}
+.visual-4{background-image:url('../contestant-curly.png')!important}
+.visual-5{background-image:url('../contestant-plus-man.png')!important}
+.visual-6{background-image:url('../contestant-plus-woman.png')!important}
+.visual-7{background-image:url('../contestant-overalls.png')!important}
+.visual-0{background-size:auto 108%!important}
+.visual-1{background-size:auto 103%!important}
+.visual-2{background-size:auto 110%!important}
+.visual-3{background-size:auto 104%!important}
