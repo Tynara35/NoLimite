@@ -8,7 +8,7 @@ Jogo local de perguntas e eliminação para até 10 participantes ou equipes. É
 - Perguntas abertas e de múltipla escolha.
 - Respostas avaliadas automaticamente: texto digitado nas abertas e alternativa clicada nas questões de múltipla escolha.
 - Palco 2D com personagens ilustrados, plataformas, alçapões e animação de queda.
-- Oito personagens selecionáveis no modo individual; qualquer personagem pode ser repetido e cada participante é identificado pelo nome.
+- Oito personagens individuais e proporcionais no modo individual; qualquer personagem pode ser repetido e cada participante é identificado pelo nome.
 - Seis emblemas coloridos selecionáveis no modo equipes, com o nome da equipe dentro do emblema e a mesma animação de alçapão.
 - Sons de início, contagem regressiva, seleção, acerto, erro e vitória.
 - Controle geral para ligar ou desligar os sons.

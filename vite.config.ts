@@ -6,7 +6,7 @@ export default defineConfig({
   base: './',
   plugins: [react(), VitePWA({
     registerType: 'autoUpdate',
-    includeAssets: ['favicon.svg', 'contestants.png', 'contestant-curly.png', 'contestant-plus-man.png', 'contestant-plus-woman.png', 'contestant-overalls.png'],
+    includeAssets: ['favicon.svg', 'contestant-man.png', 'contestant-dress.png', 'contestant-purple.png', 'contestant-blonde.png', 'contestant-curly.png', 'contestant-plus-man.png', 'contestant-plus-woman.png', 'contestant-overalls.png'],
     manifest: {
       name: 'No Limite da Resposta', short_name: 'No Limite',
       description: 'Jogo de perguntas e eliminação para animar seu auditório.',
